@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative; /* So that the user-info can be positioned absolutely within */
+}
+
+/* Top-right corner user info */
+.user-info {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: right;
+}
+
+.user-info p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.user-info button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-info button:hover {
+  background-color: #0056b3;
+}
+
+
+h3 {
+  margin-top: 0; /* Ensure there's no large gap above the header */
+}
+.post {
+  background-color: #f9f9f9; /* Light background for posts */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px;
+  margin-bottom: 20px; /* Space between posts */
+  width: 100%; /* Full width */
+  max-width: 600px; /* Max width for larger screens */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+button {
+  background-color: #007bff; /* Button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 15px; /* Padding for button */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker button color on hover */
+}
+
+img {
+  max-width: 100%; /* Make sure images are responsive */
+  border-radius: 8px;
+}
